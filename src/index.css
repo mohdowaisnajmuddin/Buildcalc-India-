@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+body {
+  background-color: #0d0d0f;
+  color: #f4f4f7;
+}
+
+@media print {
+  @page {
+    margin: 12mm;
+    size: auto;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #111827 !important;
+    font-size: 11pt !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  header,
+  footer,
+  #calculate-btn,
+  #share-action-section,
+  #pdf-download-btn,
+  #pdf-export-btn,
+  #save-estimate-btn,
+  #faq-modal-overlay,
+  #model-metadata-overlay,
+  #privacy-modal-overlay,
+  #auth-modal-overlay,
+  #toggle-phone-btn,
+  #preset-area-1000,
+  #preset-area-1500,
+  #preset-area-2400,
+  #preset-area-3500 {
+    display: none !important;
+  }
+
+  /* Reset dark theme container styles for crisp printer-friendly PDF output */
+  #estimate-form,
+  #estimate-result-panel,
+  #estimate-result-panel > div,
+  .metric-card,
+  #metric-base-cost,
+  #metric-gst-wastage,
+  #metric-total-cost,
+  #staleness-metadata-bar,
+  #confidence-range-badge {
+    background-color: #ffffff !important;
+    color: #111827 !important;
+    border-color: #d1d5db !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  #estimate-form {
+    border: 1px solid #d1d5db !important;
+    border-radius: 8px !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  #estimate-result-panel {
+    border: 1px solid #d1d5db !important;
+    border-radius: 8px !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  #total-estimate-figure {
+    color: #111827 !important;
+  }
+
+  /* Ensure text colors within cards and rows remain readable */
+  p, span, div, strong, h2, h3 {
+    color: inherit;
+  }
+}

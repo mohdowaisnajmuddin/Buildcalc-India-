@@ -1,0 +1,6 @@
+{
+  "name": "BuildCalc",
+  "description": "ML-backed construction cost estimator for Indian cities (Hyderabad, Bangalore, Mumbai, Delhi NCR) with real-time breakdowns, confidence ranges, and WhatsApp sharing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
