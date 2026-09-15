@@ -14,7 +14,7 @@ A construction cost estimator for Indian cities, calibrated against official gov
 Next.js · Firebase · Vercel
 
 ⚙️ Running locally
-git clone https://github.com/yourusername/buildcalc.git
+git clone https://github.com/mohdowaisnajmuddin/buildcalc-india.git
 cd buildcalc
 npm install
 npm run dev
