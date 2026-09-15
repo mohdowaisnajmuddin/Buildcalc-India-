@@ -21,7 +21,9 @@ Next.js · Firebase · Vercel
 
 ⚙️ Running locally
 
-git clone https://github.com/mohdowaisnajmuddin/Buildcalc-India.vercel.app.git
+git clone 
+
+https://github.com/yourusername/buildcalc.git
 
 cd buildcalc
 
